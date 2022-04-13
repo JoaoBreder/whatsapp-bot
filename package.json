@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoBreder/whatsapp-bot.git"
+  },
+  "author": "João Breder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoBreder/whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/JoaoBreder/whatsapp-bot#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "twilio": "^3.76.1"
+  }
+}
